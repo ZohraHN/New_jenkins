@@ -3,6 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Maven_Test.Demowebshop_SearchTest">
+        <methods>
+          <include name="P1"/>
+        </methods>
+      </class> <!-- Maven_Test.Demowebshop_SearchTest -->
       <class name="Maven_Test.DemoWebShop_RegisterTest">
         <methods>
           <include name="p2"/>
